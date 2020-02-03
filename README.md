@@ -1,16 +1,14 @@
-# Illumio-Coding-Challenge
-This is repository contains solution of Illumio coding challenge.
+Download code:
+Use the link to clone the project and use the command git clone https://github.com/ysajjan81/illumiotest.git
+Open the project in IDE (eclipse, vscode etc)
+Run the java Application. 
 
-# Testing
-I used JUnit 5 for testing this functionality. I tested by covering corner cases of ports and IP address. 
-The main thing that I wanted to test was making sure that the program still worked for the case when there was a range in the port and also the ipAddress. 
+For the implementation I use Hashing for network rules. The time complexity to check the value is O(1). 
+And space complexity is is O(n).
 
-# Implmentation
-For this assignment, I decided  to make run time efficient.I did it by creating a HashSet of NetworkRule object. I overrode the equals methods such that 2 network rules are similar when direction, protocol, port and IP address are same. 
-This leads to O(1) run time. One thing we could do id to apply design patterns to it, Proxy pattern ould work in this scenario.
+I used Junit5 for testing purpose and created test cases to chekc the edge cases.
 
-# Refinements
-If time had permit, I would have added validations to all the input field. I would have declared enums for all defined protocols likd TCP, UDP.
-
-# Teams
-I would like to join Platform team.
+I am open to join any team but my preference is as below.
+1. Platform Team
+2. Data Team.
+3. Policy Team

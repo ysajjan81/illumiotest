@@ -1,5 +1,6 @@
 Download code:
-Use the link to clone the project and use the command git clone https://github.com/ysajjan81/illumiotest.git
+Use the link to clone the project and use the command "git clone https://github.com/ysajjan81/illumiotest.git"
+
 Open the project in IDE (eclipse, vscode etc)
 Run the java Application. 
 
